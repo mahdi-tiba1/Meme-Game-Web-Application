@@ -1,0 +1,98 @@
+.game-image {
+    width: 300px; /* Set a fixed width */
+    height: 200px; /* Set a fixed height */
+    object-fit: cover; /* This will cover the area without distorting the ratio */
+    margin-bottom: 20px; /* Adjusted for new layout */
+  }
+  .game-details {
+    text-align: left;
+    font-size: 1.5em;
+    color: #333;
+    margin: 1em 0;
+    padding: 1em;
+    border-left: 4px solid #333;
+    background-color: #f9f9f9;
+  }
+  
+  .game-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .gameOver-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .text-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .custom-button {
+    background-color: #333; /* Dark gray color;  */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+  }
+  
+  .custom-button:hover {
+    background-color: #333; /* Keep the same color on hover;   */
+    color: white; /* Keeps text color white on hover */
+  }
+  .enlarged {
+    width: 600px;
+    height: auto;
+  }
+  #time-left {
+    font-size: 24px;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  
+  .game-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* This makes sure that the game details take up at least the full height of the viewport */
+  }
+  
+  .game-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; /* Space between meme image and captions */
+  }
+  
+  .caption-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start; /* Align captions to the start */
+    gap: 10px; /* Space between each caption */
+  }
+  
+  
+  /* Add this to your CSS file */
+  .total-score {
+    font-family: 'Arial', sans-serif; /* Change the font family   */
+    color: #007bff; /* Change the color as needed */
+    border: 2px solid #007bff; /* Adds a frame, change color   */
+    padding: 10px;
+    border-radius: 5px; /* Adds rounded corners to the frame */
+    margin-bottom: 20px; /* Adds space below the total score */
+    text-align: center;
+  }
+  
+   
